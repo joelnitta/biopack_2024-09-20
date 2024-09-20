@@ -1,0 +1,102 @@
+---
+format:
+  revealjs:
+    footer: <https://joelnitta.github.io/biopack_2024-09-20>
+---
+
+## データサイエンス教材を翻訳する{dovetail}パッケージの紹介
+
+<br>
+
+Bio'Pack'athon 2024 #9 大阪
+
+<br>
+
+**ニッタ ジョエル**
+
+千葉大学 大学院 国際学術研究院
+
+<https://www.joelnitta.com>
+
+![](images/qr.svg){style="position:absolute; bottom:50px; right:50px; width:350px; height:350px;"}
+
+## ニッタ ジョエル
+
+:::: {.columns}
+
+::: {.column}
+- 研究テーマ（１）：**シダ植物の進化**
+
+- 研究テーマ（２）：生物多様性解析用**Rパッケージの開発**
+  - [canaper](https://github.com/ropensci/canaper)
+  - [dwctaxon](https://github.com/ropensci/dwctaxon)
+
+:::
+
+::: {.column}
+![](https://github.com/joelnitta/joelnitta-site/blob/master/static/media/headers/research_img2.jpg?raw=true){fig-alt="Image of Joel Nitta in field" height="450"}
+:::
+
+::::
+
+![](https://www.r-project.org/Rlogo.png){style="position:absolute; bottom:40px; right:40px; width:150px;"}
+
+## ザ・カーペントリーズとは
+
+![](https://carpentries.org/assets/img/TheCarpentries.svg){style="position:absolute; bottom:10px; right:10px; width:50px;"}
+
+- 研究者向けに**コーディングやデータサイエンスの基礎を教える**非営利団体
+  - <https://carpentries.org/>
+
+- 2018年に「ソフトウェアカーペントリーズ」、「データカーペントリーズ」、「ライブラリーカーペントリーズ」が統合され、現在の形に
+
+- 2日間のワークショップで、コマンドライン、R、Pythonなどの基礎を学ぶ
+
+---
+
+![](images/chiba-workshop-2024-05-31.jpg){height=600px}
+
+::: {.aside}
+[「日本初 Software Carpentry 対面 日本語ワークショップ」](https://swcarpentry-ja.github.io/2024-05-30-chiba/)千葉大学 2024-05-31
+:::
+
+## コミュニティとリソース
+
+- 世界中の大学や研究機関で活動し、**広範なコミュニティを持つ**
+
+- すべての教材はクリエイティブ・コモンズ・ライセンスで公開
+
+- 助成金や寄付による資金調達。Chan Zuckerberg Initiativeなどからも支援。
+
+![](https://software-carpentry.org/files/workshops/mit-2013-slice.jpg){height=180px}
+
+## 翻訳
+
+- 教材（英語、.md）を翻訳するには、[Crowdin](https://carpentries.crowdin.com/)を使っている
+  - 教材に変更があった際、翻訳のアップデートができる
+  - .mdのパーサーによって、翻訳者は内容だけに集中できる
+  - が、ソースコードからサイトをレンダーする必要がある
+
+---
+
+![](images/crowdin.png)
+
+<https://carpentries.crowdin.com>
+
+## {dovetail}
+
+- <https://github.com/joelnitta/dovetail/>
+- 翻訳をレンダーするRパッケージ
+- GitHub Actionsを利用して、ワークフローを（ほぼ）完全に自動化
+
+---
+
+![](images/git-en.png)
+
+<https://swcarpentry.github.io/git-novice/>
+
+---
+
+![](images/git-ja.png)
+
+<https://swcarpentry-ja.github.io/git-novice/>
