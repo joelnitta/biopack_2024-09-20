@@ -102,4 +102,10 @@ height:300px;"}
 
 ![](images/git-ja.png)
 
-<https://swcarpentry-ja.github.io/git-novice/>
+（ローカル）
+
+---
+
+![](images/git-ja-current.png)
+
+課題：<https://swcarpentry-ja.github.io/git-novice/> では翻訳がうまくいかないところがある・・
